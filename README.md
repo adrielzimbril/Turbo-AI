@@ -1,5 +1,8 @@
 ---
-description: Introduction
+description: >-
+  Turbo AI's intelligent text generation feature harnesses the power of
+  artificial intelligence to provide users with a seamless and efficient content
+  creation experience.
 ---
 
 # 👋 Welcome to Turbo AI
