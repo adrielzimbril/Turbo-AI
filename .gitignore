@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/build
+/public/builded
+/public/dist
+/public/storage
+/public/upload
+/public/uploads
+/storage/debugbar/*
+/storage/*.key
+/storage/*.php
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# But not these files...
+/**/**/.DS_Store
+
+#Custom Files && Folder
+

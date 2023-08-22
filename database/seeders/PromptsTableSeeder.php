@@ -1,0 +1,478 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class PromptsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('prompts')->delete();
+        
+        \DB::table('prompts')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'category_id' => '2',
+                'name' => 'Post Title Generator',
+                'description' => 'Get captivating post titles instantly with our title generator. Boost engagement and save time.',
+                'slug' => 'post_title_generator',
+                'prompt' => NULL,
+                'fields' => '[{"name":"your_description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M5 7h5.5v12h3V7H19V4H5z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'category_id' => '2',
+                'name' => 'Summarize Text',
+                'description' => 'Effortlessly condense large text into shorter summaries. Save time and increase productivity.',
+                'slug' => 'summarize_text',
+                'prompt' => NULL,
+                'fields' => '[{"name":"text_to_summary","type":"textarea","question":"Text to summary","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M18,21H6c-1.657,0-3-1.343-3-3V6c0-1.657,1.343-3,3-3h12c1.657,0,3,1.343,3,3v12	C21,19.657,19.657,21,18,21z" opacity=".35"/><path d="M17.616,15.762c-0.188-0.188-2.199-2.199-2.762-2.762c-0.471,0.749-1.105,1.382-1.854,1.854	c0.563,0.563,2.574,2.574,2.762,2.762c0.512,0.512,1.342,0.512,1.854,0C18.128,17.104,18.128,16.274,17.616,15.762z"/><path d="M11.5,6C8.462,6,6,8.462,6,11.5c0,3.038,2.462,5.5,5.5,5.5c3.038,0,5.5-2.462,5.5-5.5C17,8.462,14.538,6,11.5,6z M11.5,15	C9.567,15,8,13.433,8,11.5C8,9.567,9.567,8,11.5,8S15,9.567,15,11.5C15,13.433,13.433,15,11.5,15z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'category_id' => '4',
+                'name' => 'Product Description',
+                'description' => 'Easily create compelling product descriptions that sell. Increase conversions and boost sales.',
+                'slug' => 'product_description',
+                'prompt' => NULL,
+                'fields' => '[{"name":"product_name","type":"text","question":"Product Name","select":""},{"name":"description","type":"textarea","question":"Short Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="evenodd" d="M11.112,1.856C11.369,1.665,11.68,1.562,12,1.562	c0.32,0,0.631,0.103,0.888,0.294l1.828,1.36c0.036,0.027,0.076,0.047,0.118,0.061c0.042,0.014,0.087,0.021,0.132,0.02l2.278-0.026	c0.32-0.004,0.633,0.096,0.891,0.284c0.259,0.188,0.45,0.455,0.546,0.76l0.68,2.174c0.013,0.043,0.034,0.083,0.06,0.119	c0.026,0.036,0.058,0.068,0.095,0.094l1.858,1.318c0.261,0.185,0.455,0.449,0.554,0.754c0.099,0.304,0.097,0.632-0.005,0.936	l-0.728,2.159c-0.014,0.042-0.022,0.087-0.022,0.131s0.007,0.089,0.022,0.131l0.728,2.159c0.102,0.303,0.104,0.631,0.005,0.936	c-0.099,0.304-0.293,0.569-0.554,0.754l-1.858,1.318c-0.036,0.026-0.068,0.057-0.095,0.094c-0.026,0.036-0.046,0.076-0.06,0.119	l-0.68,2.174c-0.095,0.305-0.287,0.572-0.546,0.76c-0.259,0.188-0.571,0.288-0.891,0.284l-2.278-0.026	c-0.045-0.001-0.089,0.006-0.132,0.02c-0.042,0.014-0.082,0.034-0.118,0.061l-1.828,1.36c-0.257,0.191-0.568,0.294-0.888,0.294	c-0.32,0-0.631-0.103-0.888-0.294l-1.828-1.36c-0.036-0.027-0.076-0.047-0.118-0.061c-0.042-0.014-0.087-0.021-0.132-0.02	l-2.278,0.026c-0.32,0.004-0.633-0.096-0.891-0.284c-0.259-0.188-0.45-0.455-0.546-0.76l-0.68-2.174	c-0.013-0.043-0.034-0.083-0.06-0.119c-0.026-0.036-0.058-0.068-0.095-0.094l-1.858-1.318c-0.261-0.185-0.455-0.449-0.554-0.754	c-0.099-0.304-0.097-0.632,0.005-0.936l0.728-2.159C2.821,12.089,2.828,12.045,2.828,12s-0.007-0.089-0.022-0.131L2.078,9.71	C1.976,9.407,1.974,9.079,2.073,8.774C2.172,8.47,2.366,8.206,2.627,8.021l1.858-1.318C4.521,6.676,4.553,6.645,4.58,6.609	c0.026-0.036,0.046-0.076,0.06-0.119l0.68-2.174c0.095-0.305,0.287-0.572,0.546-0.76c0.259-0.188,0.571-0.288,0.891-0.284	l2.278,0.026c0.045,0.001,0.089-0.006,0.132-0.02c0.042-0.014,0.082-0.034,0.118-0.061L11.112,1.856z" clip-rule="evenodd" opacity=".35"/><path d="M6.327,10.023c-0.159,0.226-0.458,0.331-0.71,0.217c-0.107-0.048-0.233-0.082-0.376-0.082c-0.145,0-0.563,0.056-0.563,0.588	c0,0.904,1.914,0.667,1.914,2.401C6.592,14.146,5.97,15,4.815,15c-0.471,0-0.841-0.126-1.134-0.293	c-0.282-0.16-0.356-0.535-0.173-0.803l0.017-0.025c0.158-0.232,0.467-0.328,0.716-0.198c0.146,0.077,0.326,0.135,0.535,0.135	c0.469,0,0.555-0.397,0.555-0.579c0-0.946-1.891-0.617-1.891-2.437C3.44,9.763,4.16,9,5.194,9c0.382,0,0.681,0.079,0.91,0.182	C6.426,9.327,6.531,9.734,6.327,10.023L6.327,10.023z"/><path d="M10.449,14.489l-0.131-0.582H8.971L8.84,14.489C8.773,14.788,8.507,15,8.201,15h0c-0.424,0-0.736-0.397-0.636-0.809	l1.061-4.364C8.744,9.342,9.178,9,9.678,9h0c0.5,0,0.935,0.342,1.052,0.828l1.054,4.363C11.883,14.604,11.571,15,11.147,15h-0.06	C10.781,15,10.516,14.788,10.449,14.489z M9.665,10.305H9.631l-0.508,2.551h1.025L9.665,10.305z"/><path d="M13,14.209V9.686C13,9.307,13.307,9,13.686,9h0c0.379,0,0.686,0.307,0.686,0.686v4.059h0.975	c0.346,0,0.627,0.281,0.627,0.627v0c0,0.346-0.281,0.627-0.627,0.627h-1.556C13.354,15,13,14.646,13,14.209z"/><path d="M17,14.209V9.791C17,9.354,17.354,9,17.791,9h1.509c0.33,0,0.598,0.268,0.598,0.598v0c0,0.33-0.268,0.598-0.598,0.598	h-1.004v1.178h0.914c0.309,0,0.559,0.25,0.559,0.559v0c0,0.309-0.25,0.559-0.559,0.559h-0.914v1.288h1.106	c0.33,0,0.598,0.268,0.598,0.598v0.026C20,14.732,19.732,15,19.402,15h-1.611C17.354,15,17,14.646,17,14.209z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'category_id' => '2',
+                'name' => 'Article Generator',
+                'description' => 'Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.',
+                'slug' => 'article_generator',
+                'prompt' => NULL,
+            'fields' => '[{"name":"article_title","type":"text","question":"Article Title","select":""},{"name":"focus_keywords","type":"text","question":"Focus Keywords (Seperate with Comma)","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M4,18V5c0-1.657,1.343-3,3-3l7,0l6,6v10c0,1.657-1.343,3-3,3H7C5.343,21,4,19.657,4,18z" opacity=".35"/><path d="M14,6V2l6,6h-4C14.895,8,14,7.105,14,6z"/><path d="M12,17H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h4c0.552,0,1,0.448,1,1S12.552,17,12,17z"/><g><path d="M16,13H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h8c0.552,0,1,0.448,1,1S16.552,13,16,13z"/></g></svg>',
+                'active' => 0,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'category_id' => '4',
+                'name' => 'Product Name Generator',
+                'description' => 'Create catchy product names with ease. Attract customers and boost sales effortlessly.',
+                'slug' => 'product_name',
+                'prompt' => NULL,
+            'fields' => '[{"name":"seed_words","type":"text","question":"Seed Words (Seperate With Comma)","select":""},{"name":"product_description","type":"textarea","question":"Product Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="evenodd" d="M11.112,1.856C11.369,1.665,11.68,1.562,12,1.562	c0.32,0,0.631,0.103,0.888,0.294l1.828,1.36c0.036,0.027,0.076,0.047,0.118,0.061c0.042,0.014,0.087,0.021,0.132,0.02l2.278-0.026	c0.32-0.004,0.633,0.096,0.891,0.284c0.259,0.188,0.45,0.455,0.546,0.76l0.68,2.174c0.013,0.043,0.034,0.083,0.06,0.119	c0.026,0.036,0.058,0.068,0.095,0.094l1.858,1.318c0.261,0.185,0.455,0.449,0.554,0.754c0.099,0.304,0.097,0.632-0.005,0.936	l-0.728,2.159c-0.014,0.042-0.022,0.087-0.022,0.131s0.007,0.089,0.022,0.131l0.728,2.159c0.102,0.303,0.104,0.631,0.005,0.936	c-0.099,0.304-0.293,0.569-0.554,0.754l-1.858,1.318c-0.036,0.026-0.068,0.057-0.095,0.094c-0.026,0.036-0.046,0.076-0.06,0.119	l-0.68,2.174c-0.095,0.305-0.287,0.572-0.546,0.76c-0.259,0.188-0.571,0.288-0.891,0.284l-2.278-0.026	c-0.045-0.001-0.089,0.006-0.132,0.02c-0.042,0.014-0.082,0.034-0.118,0.061l-1.828,1.36c-0.257,0.191-0.568,0.294-0.888,0.294	c-0.32,0-0.631-0.103-0.888-0.294l-1.828-1.36c-0.036-0.027-0.076-0.047-0.118-0.061c-0.042-0.014-0.087-0.021-0.132-0.02	l-2.278,0.026c-0.32,0.004-0.633-0.096-0.891-0.284c-0.259-0.188-0.45-0.455-0.546-0.76l-0.68-2.174	c-0.013-0.043-0.034-0.083-0.06-0.119c-0.026-0.036-0.058-0.068-0.095-0.094l-1.858-1.318c-0.261-0.185-0.455-0.449-0.554-0.754	c-0.099-0.304-0.097-0.632,0.005-0.936l0.728-2.159C2.821,12.089,2.828,12.045,2.828,12s-0.007-0.089-0.022-0.131L2.078,9.71	C1.976,9.407,1.974,9.079,2.073,8.774C2.172,8.47,2.366,8.206,2.627,8.021l1.858-1.318C4.521,6.676,4.553,6.645,4.58,6.609	c0.026-0.036,0.046-0.076,0.06-0.119l0.68-2.174c0.095-0.305,0.287-0.572,0.546-0.76c0.259-0.188,0.571-0.288,0.891-0.284	l2.278,0.026c0.045,0.001,0.089-0.006,0.132-0.02c0.042-0.014,0.082-0.034,0.118-0.061L11.112,1.856z" clip-rule="evenodd" opacity=".35"/><path d="M6.327,10.023c-0.159,0.226-0.458,0.331-0.71,0.217c-0.107-0.048-0.233-0.082-0.376-0.082c-0.145,0-0.563,0.056-0.563,0.588	c0,0.904,1.914,0.667,1.914,2.401C6.592,14.146,5.97,15,4.815,15c-0.471,0-0.841-0.126-1.134-0.293	c-0.282-0.16-0.356-0.535-0.173-0.803l0.017-0.025c0.158-0.232,0.467-0.328,0.716-0.198c0.146,0.077,0.326,0.135,0.535,0.135	c0.469,0,0.555-0.397,0.555-0.579c0-0.946-1.891-0.617-1.891-2.437C3.44,9.763,4.16,9,5.194,9c0.382,0,0.681,0.079,0.91,0.182	C6.426,9.327,6.531,9.734,6.327,10.023L6.327,10.023z"/><path d="M10.449,14.489l-0.131-0.582H8.971L8.84,14.489C8.773,14.788,8.507,15,8.201,15h0c-0.424,0-0.736-0.397-0.636-0.809	l1.061-4.364C8.744,9.342,9.178,9,9.678,9h0c0.5,0,0.935,0.342,1.052,0.828l1.054,4.363C11.883,14.604,11.571,15,11.147,15h-0.06	C10.781,15,10.516,14.788,10.449,14.489z M9.665,10.305H9.631l-0.508,2.551h1.025L9.665,10.305z"/><path d="M13,14.209V9.686C13,9.307,13.307,9,13.686,9h0c0.379,0,0.686,0.307,0.686,0.686v4.059h0.975	c0.346,0,0.627,0.281,0.627,0.627v0c0,0.346-0.281,0.627-0.627,0.627h-1.556C13.354,15,13,14.646,13,14.209z"/><path d="M17,14.209V9.791C17,9.354,17.354,9,17.791,9h1.509c0.33,0,0.598,0.268,0.598,0.598v0c0,0.33-0.268,0.598-0.598,0.598	h-1.004v1.178h0.914c0.309,0,0.559,0.25,0.559,0.559v0c0,0.309-0.25,0.559-0.559,0.559h-0.914v1.288h1.106	c0.33,0,0.598,0.268,0.598,0.598v0.026C20,14.732,19.732,15,19.402,15h-1.611C17.354,15,17,14.646,17,14.209z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            5 => 
+            array (
+                'id' => 6,
+                'category_id' => '4',
+                'name' => 'Testimonial Review',
+                'description' => 'Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.',
+                'slug' => 'testimonial_review',
+                'prompt' => NULL,
+                'fields' => '[{"name":"subject","type":"textarea","question":"Subject","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M17.87,4.13C17.6,4.05,17.3,4,17,4H9C7.34,4,6,5.34,6,7v12c0,0.3,0.05,0.6,0.13,0.87C4.89,19.5,4,18.36,4,17V5	c0-1.66,1.34-3,3-3h8C16.36,2,17.5,2.89,17.87,4.13z"/><path d="M6,19L5,7c0-1.657,2.343-4,4-4l8,1c1.657,0,3,1.343,3,3v12c0,1.657-1.343,3-3,3H9	C7.343,22,6,20.657,6,19z" opacity=".35"/><path d="M14.415,17.495c0,0.423-0.246,1.505-1.422,1.505s-1.407-1.082-1.407-1.505c0-0.414,0.262-1.523,1.407-1.523	S14.415,17.081,14.415,17.495z M11.703,13.519V8.297C11.703,7.581,12.284,7,13,7l0,0c0.716,0,1.297,0.581,1.297,1.297v5.222	c0,0.716-0.581,1.297-1.297,1.297l0,0C12.284,14.816,11.703,14.235,11.703,13.519z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            6 => 
+            array (
+                'id' => 7,
+                'category_id' => '4',
+                'name' => 'Problem Agilate Solution',
+                'description' => 'Identify and solve problems efficiently. Streamline solutions and increase productivity.',
+                'slug' => 'problem_agitate_solution',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M17.87,4.13C17.6,4.05,17.3,4,17,4H9C7.34,4,6,5.34,6,7v12c0,0.3,0.05,0.6,0.13,0.87C4.89,19.5,4,18.36,4,17V5	c0-1.66,1.34-3,3-3h8C16.36,2,17.5,2.89,17.87,4.13z"/><path d="M6,19L5,7c0-1.657,2.343-4,4-4l8,1c1.657,0,3,1.343,3,3v12c0,1.657-1.343,3-3,3H9	C7.343,22,6,20.657,6,19z" opacity=".35"/><path d="M14.415,17.495c0,0.423-0.246,1.505-1.422,1.505s-1.407-1.082-1.407-1.505c0-0.414,0.262-1.523,1.407-1.523	S14.415,17.081,14.415,17.495z M11.703,13.519V8.297C11.703,7.581,12.284,7,13,7l0,0c0.716,0,1.297,0.581,1.297,1.297v5.222	c0,0.716-0.581,1.297-1.297,1.297l0,0C12.284,14.816,11.703,14.235,11.703,13.519z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            7 => 
+            array (
+                'id' => 8,
+                'category_id' => '2',
+                'name' => 'Blog Section',
+                'description' => 'Effortlessly create blog sections with AI. Get unique, engaging content and save time.',
+                'slug' => 'blog_section',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M4,18V5c0-1.657,1.343-3,3-3l7,0l6,6v10c0,1.657-1.343,3-3,3H7C5.343,21,4,19.657,4,18z" opacity=".35"/><path d="M14,6V2l6,6h-4C14.895,8,14,7.105,14,6z"/><path d="M12,17H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h4c0.552,0,1,0.448,1,1S12.552,17,12,17z"/><g><path d="M16,13H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h8c0.552,0,1,0.448,1,1S16.552,13,16,13z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            8 => 
+            array (
+                'id' => 9,
+                'category_id' => '2',
+                'name' => 'Blog Post Ideas',
+                'description' => 'Unlock your creativity with unique blog post ideas. Generate endless inspiration and take your content to the next level.',
+                'slug' => 'blog_post_ideas',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M4,18V5c0-1.657,1.343-3,3-3l7,0l6,6v10c0,1.657-1.343,3-3,3H7C5.343,21,4,19.657,4,18z" opacity=".35"/><path d="M14,6V2l6,6h-4C14.895,8,14,7.105,14,6z"/><path d="M12,17H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h4c0.552,0,1,0.448,1,1S12.552,17,12,17z"/><g><path d="M16,13H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h8c0.552,0,1,0.448,1,1S16.552,13,16,13z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            9 => 
+            array (
+                'id' => 11,
+                'category_id' => '2',
+                'name' => 'Blog Conclusion',
+                'description' => 'End your blog posts on a high note. Craft memorable conclusions that leave a lasting impact.',
+                'slug' => 'blog_conclusion',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"text","question":"Title of the blog text","select":""},{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M4,18V5c0-1.657,1.343-3,3-3l7,0l6,6v10c0,1.657-1.343,3-3,3H7C5.343,21,4,19.657,4,18z" opacity=".35"/><path d="M14,6V2l6,6h-4C14.895,8,14,7.105,14,6z"/><path d="M12,17H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h4c0.552,0,1,0.448,1,1S12.552,17,12,17z"/><g><path d="M16,13H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h8c0.552,0,1,0.448,1,1S16.552,13,16,13z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            10 => 
+            array (
+                'id' => 12,
+                'category_id' => '3',
+                'name' => 'Facebook Ads',
+                'description' => 'Create high-converting Facebook ads that grab attention. Drive sales and grow your business.',
+                'slug' => 'facebook_ads',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"text","question":"Title","select":""},{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M13,23h-3c-0.552,0-1-0.448-1-1V7c0-4,2-6,6-6h2c0.552,0,1,0.448,1,1v3c0,0.552-0.448,1-1,1h-2c-0.552,0-1,0.448-1,1v15 C14,22.552,13.552,23,13,23z"/><g opacity=".35"><path d="M16.719,9H14v5h2.219c0.459,0,0.859-0.312,0.97-0.758l0.5-3C17.847,9.611,17.37,9,16.719,9z"/><path d="M9,9H7c-0.552,0-1,0.448-1,1v3c0,0.552,0.448,1,1,1h2V9z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            11 => 
+            array (
+                'id' => 13,
+                'category_id' => '6',
+                'name' => 'Youtube Video Description',
+                'description' => 'Elevate your YouTube content with compelling video descriptions. Generate engaging descriptions effortlessly and increase views.',
+                'slug' => 'youtube_video_description',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"text","question":"Title","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M19.503,3.421C17.662,3.2,15.131,3,12,3S6.338,3.2,4.497,3.421C2.496,3.661,1,5.374,1,7.39v9.221	c0,2.015,1.496,3.728,3.497,3.969C6.338,20.8,8.869,21,12,21s5.662-0.2,7.503-0.421C21.504,20.338,23,18.626,23,16.61V7.39	C23,5.374,21.504,3.661,19.503,3.421z" opacity=".35"/><path d="M15.52,11.104l-4.846-3.231c-0.331-0.22-0.757-0.242-1.105-0.054C9.219,8.007,9,8.372,9,8.769v6.462	c0,0.398,0.219,0.762,0.569,0.95c0.159,0.085,0.334,0.127,0.508,0.127c0.209,0,0.417-0.061,0.597-0.181l4.846-3.231	C15.82,12.696,16,12.36,16,12S15.82,11.304,15.52,11.104z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            12 => 
+            array (
+                'id' => 14,
+                'category_id' => '6',
+                'name' => 'Youtube Video Title',
+                'description' => 'Get more views with attention-grabbing video titles. Create unique, catchy titles that entice viewers.',
+                'slug' => 'youtube_video_title',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M19.503,3.421C17.662,3.2,15.131,3,12,3S6.338,3.2,4.497,3.421C2.496,3.661,1,5.374,1,7.39v9.221	c0,2.015,1.496,3.728,3.497,3.969C6.338,20.8,8.869,21,12,21s5.662-0.2,7.503-0.421C21.504,20.338,23,18.626,23,16.61V7.39	C23,5.374,21.504,3.661,19.503,3.421z" opacity=".35"/><path d="M15.52,11.104l-4.846-3.231c-0.331-0.22-0.757-0.242-1.105-0.054C9.219,8.007,9,8.372,9,8.769v6.462	c0,0.398,0.219,0.762,0.569,0.95c0.159,0.085,0.334,0.127,0.508,0.127c0.209,0,0.417-0.061,0.597-0.181l4.846-3.231	C15.82,12.696,16,12.36,16,12S15.82,11.304,15.52,11.104z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            13 => 
+            array (
+                'id' => 15,
+                'category_id' => '6',
+                'name' => 'Youtube Video Tag',
+                'description' => 'Improve your YouTube video\'s discoverability with relevant video tags. Boost views and engagement.',
+                'slug' => 'youtube_video_tag',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"textarea","question":"Title","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M19.503,3.421C17.662,3.2,15.131,3,12,3S6.338,3.2,4.497,3.421C2.496,3.661,1,5.374,1,7.39v9.221	c0,2.015,1.496,3.728,3.497,3.969C6.338,20.8,8.869,21,12,21s5.662-0.2,7.503-0.421C21.504,20.338,23,18.626,23,16.61V7.39	C23,5.374,21.504,3.661,19.503,3.421z" opacity=".35"/><path d="M15.52,11.104l-4.846-3.231c-0.331-0.22-0.757-0.242-1.105-0.054C9.219,8.007,9,8.372,9,8.769v6.462	c0,0.398,0.219,0.762,0.569,0.95c0.159,0.085,0.334,0.127,0.508,0.127c0.209,0,0.417-0.061,0.597-0.181l4.846-3.231	C15.82,12.696,16,12.36,16,12S15.82,11.304,15.52,11.104z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            14 => 
+            array (
+                'id' => 16,
+                'category_id' => '6',
+                'name' => 'Instagram Captions',
+                'description' => 'Elevate your Instagram game with captivating captions. Generate unique captions that engage followers and increase your reach.',
+                'slug' => 'instagram_captions',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"textarea","question":"Title","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M16,21H8c-2.761,0-5-2.239-5-5V8c0-2.761,2.239-5,5-5h8c2.761,0,5,2.239,5,5v8	C21,18.761,18.761,21,16,21z" opacity=".35"/><path d="M12,7c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S14.761,7,12,7z M12,15c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3	S13.657,15,12,15z"/><circle cx="17" cy="7" r="1"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            15 => 
+            array (
+                'id' => 17,
+                'category_id' => '6',
+                'name' => 'Instagram Hashtags',
+                'description' => 'Boost your Instagram reach with relevant hashtags. Generate optimal, trending hashtags and increase your visibility.',
+                'slug' => 'instagram_hashtag',
+                'prompt' => NULL,
+            'fields' => '[{"name":"keywords","type":"textarea","question":"Keywords (Separate with comma.)","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M16,21H8c-2.761,0-5-2.239-5-5V8c0-2.761,2.239-5,5-5h8c2.761,0,5,2.239,5,5v8	C21,18.761,18.761,21,16,21z" opacity=".35"/><path d="M12,7c-2.761,0-5,2.239-5,5s2.239,5,5,5s5-2.239,5-5S14.761,7,12,7z M12,15c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3	S13.657,15,12,15z"/><circle cx="17" cy="7" r="1"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            16 => 
+            array (
+                'id' => 18,
+                'category_id' => '6',
+                'name' => 'Social Media Post Tweet',
+                'description' => 'Make an impact with every tweet. Generate attention-grabbing social media posts and increase engagement.',
+                'slug' => 'social_media_post_tweet',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"textarea","question":"Title","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M9.5,2C5.358,2,2,5.358,2,9.5c0,1.194,0.286,2.318,0.782,3.32l-0.754,3.014c-0.172,0.687,0.45,1.309,1.137,1.137 l3.014-0.754C7.182,16.714,8.306,17,9.5,17c4.142,0,7.5-3.358,7.5-7.5S13.642,2,9.5,2z" opacity=".35"/><path d="M20.85,16.35l1.121,4.484c0.172,0.687-0.45,1.309-1.137,1.137L16.35,20.85L20.85,16.35z"/><path d="M16.677,7.323C16.885,8.013,17,8.743,17,9.5c0,4.142-3.358,7.5-7.5,7.5c-0.757,0-1.487-0.115-2.177-0.323	C8.256,19.757,11.115,22,14.5,22c4.142,0,7.5-3.358,7.5-7.5C22,11.115,19.757,8.256,16.677,7.323z"/><path d="M13,9H7C6.447,9,6,8.552,6,8s0.447-1,1-1h6c0.553,0,1,0.448,1,1S13.553,9,13,9z"/><path d="M11,13H7c-0.553,0-1-0.448-1-1s0.447-1,1-1h4c0.553,0,1,0.448,1,1S11.553,13,11,13z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            17 => 
+            array (
+                'id' => 19,
+                'category_id' => '6',
+                'name' => 'Social Media Post Business',
+                'description' => 'Generate a text for your business social media networks. Maximize your social media presence with impactful business posts.',
+                'slug' => 'social_media_post_business',
+                'prompt' => NULL,
+                'fields' => '[{"name":"company_name","type":"text","question":"Company Name","select":""},{"name":"description","type":"textarea","question":"Company Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M9.5,2C5.358,2,2,5.358,2,9.5c0,1.194,0.286,2.318,0.782,3.32l-0.754,3.014c-0.172,0.687,0.45,1.309,1.137,1.137 l3.014-0.754C7.182,16.714,8.306,17,9.5,17c4.142,0,7.5-3.358,7.5-7.5S13.642,2,9.5,2z" opacity=".35"/><path d="M20.85,16.35l1.121,4.484c0.172,0.687-0.45,1.309-1.137,1.137L16.35,20.85L20.85,16.35z"/><path d="M16.677,7.323C16.885,8.013,17,8.743,17,9.5c0,4.142-3.358,7.5-7.5,7.5c-0.757,0-1.487-0.115-2.177-0.323	C8.256,19.757,11.115,22,14.5,22c4.142,0,7.5-3.358,7.5-7.5C22,11.115,19.757,8.256,16.677,7.323z"/><path d="M13,9H7C6.447,9,6,8.552,6,8s0.447-1,1-1h6c0.553,0,1,0.448,1,1S13.553,9,13,9z"/><path d="M11,13H7c-0.553,0-1-0.448-1-1s0.447-1,1-1h4c0.553,0,1,0.448,1,1S11.553,13,11,13z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            18 => 
+            array (
+                'id' => 20,
+                'category_id' => '6',
+                'name' => 'Facebook Headlines',
+                'description' => 'Get noticed with attention-grabbing Facebook headlines. Generate unique, clickable headlines that increase engagement and drive traffic.',
+                'slug' => 'facebook_headlines',
+                'prompt' => NULL,
+                'fields' => '[{"name":"title","type":"text","question":"Title","select":""},{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M13,23h-3c-0.552,0-1-0.448-1-1V7c0-4,2-6,6-6h2c0.552,0,1,0.448,1,1v3c0,0.552-0.448,1-1,1h-2c-0.552,0-1,0.448-1,1v15 C14,22.552,13.552,23,13,23z"/><g opacity=".35"><path d="M16.719,9H14v5h2.219c0.459,0,0.859-0.312,0.97-0.758l0.5-3C17.847,9.611,17.37,9,16.719,9z"/><path d="M9,9H7c-0.552,0-1,0.448-1,1v3c0,0.552,0.448,1,1,1h2V9z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            19 => 
+            array (
+                'id' => 21,
+                'category_id' => '3',
+                'name' => 'Google Ads Headlines',
+                'description' => 'Create high-converting Google ads with captivating headlines. Generate unique, clickable ads that drive traffic and boost sales.',
+                'slug' => 'google_ads_headlines',
+                'prompt' => NULL,
+                'fields' => '[{"name":"product_name","type":"text","question":"Product Name","select":""},{"name":"description","type":"textarea","question":"Description","select":""},{"name":"audience","type":"select","question":"Audience","select":"\\n        <option value=\'everyone\'> Everyone </option>\\n        <option value=\'man\'> Man </option>\\n        <option value=\'woman\'> Woman </option>\\n        <option value=\'children\'> Children </option>\\n        <option value=\'teenager\'> Teenager </option>\\n        "}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M12,6c1,0,1.941,0.247,2.769,0.681c0.79,0.414,1.75,0.301,2.381-0.33l0,0	c0.945-0.945,0.72-2.545-0.459-3.176C15.293,2.426,13.697,2,12,2C8.163,2,4.834,4.164,3.157,7.337L6.458,9.7	C7.361,7.528,9.501,6,12,6z" opacity=".35"/><path d="M6,12c0-0.815,0.164-1.591,0.458-2.3L3.157,7.337C2.421,8.73,2,10.315,2,12c0,1.642,0.403,3.187,1.104,4.554l3.248-2.542	C6.128,13.382,6,12.707,6,12z"/><path d="M12,18c-2.607,0-4.819-1.666-5.647-3.989l-3.248,2.542C4.762,19.784,8.119,22,12,22	c2.579,0,4.922-0.984,6.695-2.587l-3.111-2.614C14.584,17.549,13.347,18,12,18z" opacity=".35"/><path d="M22,12c0-0.671-0.069-1.325-0.195-1.958L21.795,10H21h-7c-1.105,0-2,0.895-2,2v0c0,1.105,0.895,2,2,2h3.651	c-0.399,1.127-1.129,2.095-2.067,2.799l3.111,2.614C20.72,17.583,22,14.944,22,12z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            20 => 
+            array (
+                'id' => 23,
+                'category_id' => '3',
+                'name' => 'Google Ads Description',
+                'description' => 'Step up your Google ad game, Craft high-converting ad copy that grabs attention and drives sales.',
+                'slug' => 'google_ads_description',
+                'prompt' => NULL,
+                'fields' => '[{"name":"product_name","type":"text","question":"Product Name","select":""},{"name":"description","type":"textarea","question":"Description","select":""},{"name":"audience","type":"select","question":"Audience","select":"\\n        <option value=\'everyone\'> Everyone </option>\\n        <option value=\'man\'> Man </option>\\n        <option value=\'woman\'> Woman </option>\\n        <option value=\'children\'> Children </option>\\n        <option value=\'teenager\'> Teenager </option>\\n        "}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M12,6c1,0,1.941,0.247,2.769,0.681c0.79,0.414,1.75,0.301,2.381-0.33l0,0	c0.945-0.945,0.72-2.545-0.459-3.176C15.293,2.426,13.697,2,12,2C8.163,2,4.834,4.164,3.157,7.337L6.458,9.7	C7.361,7.528,9.501,6,12,6z" opacity=".35"/><path d="M6,12c0-0.815,0.164-1.591,0.458-2.3L3.157,7.337C2.421,8.73,2,10.315,2,12c0,1.642,0.403,3.187,1.104,4.554l3.248-2.542	C6.128,13.382,6,12.707,6,12z"/><path d="M12,18c-2.607,0-4.819-1.666-5.647-3.989l-3.248,2.542C4.762,19.784,8.119,22,12,22	c2.579,0,4.922-0.984,6.695-2.587l-3.111-2.614C14.584,17.549,13.347,18,12,18z" opacity=".35"/><path d="M22,12c0-0.671-0.069-1.325-0.195-1.958L21.795,10H21h-7c-1.105,0-2,0.895-2,2v0c0,1.105,0.895,2,2,2h3.651	c-0.399,1.127-1.129,2.095-2.067,2.799l3.111,2.614C20.72,17.583,22,14.944,22,12z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            21 => 
+            array (
+                'id' => 24,
+                'category_id' => '2',
+                'name' => 'Paragraph Generator',
+                'description' => 'Generate a paragraph with keywords and description. Never struggle with writer\'s block again. Generate flawless paragraphs that captivate readers.',
+                'slug' => 'paragraph_generator',
+                'prompt' => NULL,
+            'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"keywords","type":"textarea","question":"Keywords (Separate with comma.)","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M4,18V5c0-1.657,1.343-3,3-3l7,0l6,6v10c0,1.657-1.343,3-3,3H7C5.343,21,4,19.657,4,18z" opacity=".35"/><path d="M14,6V2l6,6h-4C14.895,8,14,7.105,14,6z"/><path d="M12,17H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h4c0.552,0,1,0.448,1,1S12.552,17,12,17z"/><g><path d="M16,13H8c-0.552,0-1-0.448-1-1s0.448-1,1-1h8c0.552,0,1,0.448,1,1S16.552,13,16,13z"/></g></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            22 => 
+            array (
+                'id' => 25,
+                'category_id' => '4',
+                'name' => 'Pros & Cons',
+                'description' => 'Make informed decisions with ease. Generate unbiased pros and cons lists that help you weigh options and make better choices.',
+                'slug' => 'pros_cons',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"title","type":"text","question":"Title","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M17.87,4.13C17.6,4.05,17.3,4,17,4H9C7.34,4,6,5.34,6,7v12c0,0.3,0.05,0.6,0.13,0.87C4.89,19.5,4,18.36,4,17V5	c0-1.66,1.34-3,3-3h8C16.36,2,17.5,2.89,17.87,4.13z"/><path d="M6,19L5,7c0-1.657,2.343-4,4-4l8,1c1.657,0,3,1.343,3,3v12c0,1.657-1.343,3-3,3H9	C7.343,22,6,20.657,6,19z" opacity=".35"/><path d="M14.415,17.495c0,0.423-0.246,1.505-1.422,1.505s-1.407-1.082-1.407-1.505c0-0.414,0.262-1.523,1.407-1.523	S14.415,17.081,14.415,17.495z M11.703,13.519V8.297C11.703,7.581,12.284,7,13,7l0,0c0.716,0,1.297,0.581,1.297,1.297v5.222	c0,0.716-0.581,1.297-1.297,1.297l0,0C12.284,14.816,11.703,14.235,11.703,13.519z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            23 => 
+            array (
+                'id' => 26,
+                'category_id' => '4',
+                'name' => 'Meta Description',
+                'description' => 'Get more clicks with compelling meta descriptions. Generate unique, SEO-friendly meta descriptions that attract customers and boost traffic.',
+                'slug' => 'meta_description',
+                'prompt' => NULL,
+            'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"title","type":"text","question":"Title","select":""},{"name":"keywords","type":"text","question":"Keywords (Separate with comma)","select":""}]',
+                'icon' => '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 9C19.552 9 20 9.4477 20 10C20 10.5523 19.552 11 19 11H5C4.448 11 4 10.5523 4 10C4 9.4477 4.448 9 5 9H19ZM19 17C19.552 17 20 17.448 20 18C20 18.552 19.552 19 19 19H9C8.448 19 8 18.552 8 18C8 17.448 8.448 17 9 17H19Z" fill="black" fill-opacity="0.4"/>
+<path d="M19 5C19.552 5 20 5.4477 20 6C20 6.5523 19.552 7 19 7H5C4.448 7 4 6.5523 4 6C4 5.4477 4.448 5 5 5H19ZM19 13C19.552 13 20 13.448 20 14C20 14.552 19.552 15 19 15H5C4.448 15 4 14.552 4 14C4 13.448 4.448 13 5 13H19Z" fill="black"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            24 => 
+            array (
+                'id' => 27,
+                'category_id' => '4',
+            'name' => 'FAQ Generator (All Datas)',
+                'description' => 'Quickly create helpful FAQs. Our AI-powered generator provides custom responses to common questions in seconds.',
+                'slug' => 'faq_generator',
+                'prompt' => NULL,
+            'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"title","type":"text","question":"Title (Faq Question)","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M17.87,4.13C17.6,4.05,17.3,4,17,4H9C7.34,4,6,5.34,6,7v12c0,0.3,0.05,0.6,0.13,0.87C4.89,19.5,4,18.36,4,17V5	c0-1.66,1.34-3,3-3h8C16.36,2,17.5,2.89,17.87,4.13z"/><path d="M6,19L5,7c0-1.657,2.343-4,4-4l8,1c1.657,0,3,1.343,3,3v12c0,1.657-1.343,3-3,3H9	C7.343,22,6,20.657,6,19z" opacity=".35"/><path d="M14.415,17.495c0,0.423-0.246,1.505-1.422,1.505s-1.407-1.082-1.407-1.505c0-0.414,0.262-1.523,1.407-1.523	S14.415,17.081,14.415,17.495z M11.703,13.519V8.297C11.703,7.581,12.284,7,13,7l0,0c0.716,0,1.297,0.581,1.297,1.297v5.222	c0,0.716-0.581,1.297-1.297,1.297l0,0C12.284,14.816,11.703,14.235,11.703,13.519z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            25 => 
+            array (
+                'id' => 28,
+                'category_id' => '5',
+                'name' => 'Email Generator',
+                'description' => 'Generate an email with your subject and description. Streamline your inbox and save time.',
+                'slug' => 'email_generator',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"subject","type":"text","question":"Subject of Email","select":""}]',
+                'icon' => '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.84399 4C3.70899 4 2 5.803 2 8V16C2 18.197 3.70899 20 5.84399 20H18.156C20.291 20 22 18.197 22 16V8C22 5.803 20.291 4 18.156 4H5.84399Z" fill="black" fill-opacity="0.4"/>
+<path d="M17 8C16.527 8 16.156 8.37101 16.156 8.81201V13.562C15.85 13.454 15.496 13.333 15.25 13.562C14.915 13.875 14.915 14.375 15.25 14.688L16.406 15.781C16.505 15.873 16.733 15.999 17 16C17.267 16.001 17.495 15.873 17.594 15.781L18.75 14.688C19.085 14.375 19.085 13.875 18.75 13.562C18.504 13.333 18.15 13.454 17.844 13.562V8.81201C17.844 8.37101 17.473 8 17 8ZM6.59399 8.03101C6.27399 8.12001 6 8.37501 6 8.78101V15.188C6 15.63 6.33901 16 6.78101 16C7.22301 16 7.59399 15.63 7.59399 15.188V11.688L9.313 14.531C9.623 15.049 10.377 15.049 10.688 14.531L12.406 11.688V15.188C12.406 15.63 12.745 16 13.188 16C13.63 16 14 15.63 14 15.188V8.78101C14 7.96901 12.918 7.71001 12.5 8.40601L10 12.562L7.5 8.40601C7.291 8.05801 6.91299 7.94301 6.59399 8.03101Z" fill="black"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            26 => 
+            array (
+                'id' => 29,
+                'category_id' => '5',
+                'name' => 'Email Answer Generator',
+                'description' => 'Effortlessly tackle your overflowing inbox with custom, accurate responses to common queries, freeing you up to focus on what matters most.',
+                'slug' => 'email_answer_generator',
+                'prompt' => NULL,
+            'fields' => '[{"name":"description","type":"textarea","question":"Description (Receieved Email)","select":""}]',
+                'icon' => '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.84399 4C3.70899 4 2 5.803 2 8V16C2 18.197 3.70899 20 5.84399 20H18.156C20.291 20 22 18.197 22 16V8C22 5.803 20.291 4 18.156 4H5.84399Z" fill="black" fill-opacity="0.4"/>
+<path d="M17 8C16.527 8 16.156 8.37101 16.156 8.81201V13.562C15.85 13.454 15.496 13.333 15.25 13.562C14.915 13.875 14.915 14.375 15.25 14.688L16.406 15.781C16.505 15.873 16.733 15.999 17 16C17.267 16.001 17.495 15.873 17.594 15.781L18.75 14.688C19.085 14.375 19.085 13.875 18.75 13.562C18.504 13.333 18.15 13.454 17.844 13.562V8.81201C17.844 8.37101 17.473 8 17 8ZM6.59399 8.03101C6.27399 8.12001 6 8.37501 6 8.78101V15.188C6 15.63 6.33901 16 6.78101 16C7.22301 16 7.59399 15.63 7.59399 15.188V11.688L9.313 14.531C9.623 15.049 10.377 15.049 10.688 14.531L12.406 11.688V15.188C12.406 15.63 12.745 16 13.188 16C13.63 16 14 15.63 14 15.188V8.78101C14 7.96901 12.918 7.71001 12.5 8.40601L10 12.562L7.5 8.40601C7.291 8.05801 6.91299 7.94301 6.59399 8.03101Z" fill="black"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            27 => 
+            array (
+                'id' => 30,
+                'category_id' => '5',
+                'name' => 'Newsletter Generator',
+                'description' => 'Generate engaging newsletters easily with personalized content that resonates with your audience, driving growth and engagement.',
+                'slug' => 'newsletter_generator',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""},{"name":"title","type":"text","question":"Title","select":""},{"name":"subject","type":"text","question":"Subject","select":""}]',
+                'icon' => '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.84399 4C3.70899 4 2 5.803 2 8V16C2 18.197 3.70899 20 5.84399 20H18.156C20.291 20 22 18.197 22 16V8C22 5.803 20.291 4 18.156 4H5.84399Z" fill="black" fill-opacity="0.4"/>
+<path d="M17 8C16.527 8 16.156 8.37101 16.156 8.81201V13.562C15.85 13.454 15.496 13.333 15.25 13.562C14.915 13.875 14.915 14.375 15.25 14.688L16.406 15.781C16.505 15.873 16.733 15.999 17 16C17.267 16.001 17.495 15.873 17.594 15.781L18.75 14.688C19.085 14.375 19.085 13.875 18.75 13.562C18.504 13.333 18.15 13.454 17.844 13.562V8.81201C17.844 8.37101 17.473 8 17 8ZM6.59399 8.03101C6.27399 8.12001 6 8.37501 6 8.78101V15.188C6 15.63 6.33901 16 6.78101 16C7.22301 16 7.59399 15.63 7.59399 15.188V11.688L9.313 14.531C9.623 15.049 10.377 15.049 10.688 14.531L12.406 11.688V15.188C12.406 15.63 12.745 16 13.188 16C13.63 16 14 15.63 14 15.188V8.78101C14 7.96901 12.918 7.71001 12.5 8.40601L10 12.562L7.5 8.40601C7.291 8.05801 6.91299 7.94301 6.59399 8.03101Z" fill="black"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            28 => 
+            array (
+                'id' => 31,
+                'category_id' => '2',
+                'name' => 'Grammar Correction',
+                'description' => 'Eliminate grammar errors and enhance your writing with ease. Our tool offers seamless grammar correction for flawless content.',
+                'slug' => 'grammar_correction',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M18,21H6c-1.657,0-3-1.343-3-3V6c0-1.657,1.343-3,3-3h12c1.657,0,3,1.343,3,3v12	C21,19.657,19.657,21,18,21z" opacity=".35"/><path d="M17.616,15.762c-0.188-0.188-2.199-2.199-2.762-2.762c-0.471,0.749-1.105,1.382-1.854,1.854	c0.563,0.563,2.574,2.574,2.762,2.762c0.512,0.512,1.342,0.512,1.854,0C18.128,17.104,18.128,16.274,17.616,15.762z"/><path d="M11.5,6C8.462,6,6,8.462,6,11.5c0,3.038,2.462,5.5,5.5,5.5c3.038,0,5.5-2.462,5.5-5.5C17,8.462,14.538,6,11.5,6z M11.5,15	C9.567,15,8,13.433,8,11.5C8,9.567,9.567,8,11.5,8S15,9.567,15,11.5C15,13.433,13.433,15,11.5,15z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 1,
+            ),
+            29 => 
+            array (
+                'id' => 32,
+                'category_id' => '2',
+                'name' => 'TL;DR Summarization',
+                'description' => 'Automatically summarize long texts into bite-sized summaries with this TL;DR generator.',
+                'slug' => 'tldr_summarization',
+                'prompt' => NULL,
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","select":""}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M18,21H6c-1.657,0-3-1.343-3-3V6c0-1.657,1.343-3,3-3h12c1.657,0,3,1.343,3,3v12	C21,19.657,19.657,21,18,21z" opacity=".35"/><path d="M17.616,15.762c-0.188-0.188-2.199-2.199-2.762-2.762c-0.471,0.749-1.105,1.382-1.854,1.854	c0.563,0.563,2.574,2.574,2.762,2.762c0.512,0.512,1.342,0.512,1.854,0C18.128,17.104,18.128,16.274,17.616,15.762z"/><path d="M11.5,6C8.462,6,6,8.462,6,11.5c0,3.038,2.462,5.5,5.5,5.5c3.038,0,5.5-2.462,5.5-5.5C17,8.462,14.538,6,11.5,6z M11.5,15	C9.567,15,8,13.433,8,11.5C8,9.567,9.567,8,11.5,8S15,9.567,15,11.5C15,13.433,13.433,15,11.5,15z"/></svg>',
+                'active' => 1,
+                'is_custom' => 0,
+                'premium' => 0,
+            ),
+            30 => 
+            array (
+                'id' => 39,
+                'category_id' => '1',
+                'name' => 'Custom Generation',
+                'description' => 'Create your own custom generator with AI! Our app allows you to quickly and easily generate unique content in any language.',
+                'slug' => 'dnck-6lw7',
+                'prompt' => 'Hi it\'s my first /*##description##*/ and my /*##description-second##*/ and also /*##description-third##*/',
+                'fields' => '[{"name":"description","type":"textarea","question":"Description","description":"Description for prompt"},{"name":"description-third","type":"text","question":"Description Third","description":"Description Third for prompt"},{"name":"description-second","type":"text","question":"Description Second","description":"Description Second for prompt"}]',
+                'icon' => '<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="24px" height="24px"><path d="M3,18c0,1.657,1.343,3,3,3h12c1.657,0,3-1.343,3-3V7H3V18z" opacity=".35"/><path d="M18,3H6C4.343,3,3,4.343,3,6v1h18V6C21,4.343,19.657,3,18,3z"/><path d="M14,9c-0.186,0-3.814,0-4,0c-0.552,0-1,0.448-1,1s0.448,1,1,1c0.186,0,3.814,0,4,0c0.552,0,1-0.448,1-1S14.552,9,14,9z"/></svg>',
+                'active' => 1,
+                'is_custom' => 1,
+                'premium' => 0,
+            ),
+            31 => 
+            array (
+                'id' => 40,
+                'category_id' => '1',
+                'name' => 'Custom Test',
+                'description' => 'Test description',
+                'slug' => 'xeaf-i2pw',
+                'prompt' => 'hi i\'im /*##test##*/ and i want /*##test-second##*/',
+                'fields' => '[{"name":"test","type":"text","question":"test","description":"description test"},{"name":"test-second","type":"text","question":"test second","description":"description second test"}]',
+            'icon' => '<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"/></svg>',
+                'active' => 1,
+                'is_custom' => 1,
+                'premium' => 0,
+            ),
+        ));
+        
+        
+    }
+}
