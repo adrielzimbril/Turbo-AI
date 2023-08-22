@@ -6,7 +6,7 @@ description: Introduction
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/cover.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/cover.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -16,28 +16,6 @@ description: Introduction
 >
 > Should you encounter any inquiries or concerns that extend beyond the scope of the documentation, please feel free to reach out to us without hesitation. Our dedicated support team is readily available to provide you with prompt assistance and guidance throughout your Turbo AI journey.
 
-## Quick links
-
-{% content-ref url="overview/installation.md" %}
-[installation.md](overview/installation.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ## Get Started
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
-{% endcontent-ref %}
