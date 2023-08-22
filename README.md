@@ -6,7 +6,7 @@ description: Introduction
 
 <div data-full-width="true">
 
-<figure><img src=".gitbook/assets/cover.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/cover.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
