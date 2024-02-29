@@ -3,68 +3,68 @@
 ## Tech Stack
 adrielzimbril/Turbo-AI is built on the following main stack:
 
-- [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
-- [Google App Engine](https://developers.google.com/appengine) – Platform as a Service
-- [Context.IO](http://context.io) – Email API
-- [Rollbar](https://rollbar.com/) – Exception Monitoring
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [PHP](http://www.php.net/) – Languages
-- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
+- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - [Swift](https://developer.apple.com/swift/) – Languages
 - [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [jQuery](http://jquery.com/) – Javascript UI Libraries
-- [MySQL](http://www.mysql.com) – Databases
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [Redis](http://redis.io/) – In-Memory Databases
-- [CouchDB](http://couchdb.apache.org/) – Databases
-- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
-- [Symfony](http://symfony.com/) – Frameworks (Full Stack)
-- [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
-- [Terraform](https://www.terraform.io/) – Server Configuration and Automation
-- [PHPUnit](https://phpunit.de/) – Testing Frameworks
-- [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
-- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- [Logstash](http://logstash.net/) – Log Management
-- [Composer](https://getcomposer.org/) – Package Managers
-- [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
-- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- [Animate.css ](https://animate.style/) – Front-End Frameworks
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- [Chart.js](http://www.chartjs.org/) – Charting Libraries
+- [Dropzone.js](http://www.dropzonejs.com/) – Javascript UI Libraries
 - [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- [LiveReload](http://livereload.com) – Live Reloading
-- [Babel](http://babeljs.io/) – JavaScript Compilers
-- [ESLint](http://eslint.org/) – Code Review
+- [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- [Select2](https://select2.github.io/) – Javascript UI Libraries
+- [Symfony](http://symfony.com/) – Frameworks (Full Stack)
+- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
+- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
+- [jQuery](http://jquery.com/) – Javascript UI Libraries
+- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- [CouchDB](http://couchdb.apache.org/) – Databases
+- [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
+- [MongoDB](http://www.mongodb.com/) – Databases
+- [MySQL](http://www.mysql.com) – Databases
+- [Redis](http://redis.io/) – In-Memory Databases
+- [Babel](http://babeljs.io/) – JavaScript Compilers
+- [Composer](https://getcomposer.org/) – Package Managers
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [ESLint](http://eslint.org/) – Code Review
+- [Graylog](https://www.graylog.org/) – Log Management
+- [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
+- [LiveReload](http://livereload.com) – Live Reloading
+- [Logstash](http://logstash.net/) – Log Management
+- [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- [PHPUnit](https://phpunit.de/) – Testing Frameworks
 - [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- [Prettier](https://prettier.io/) – Code Review
+- [Rollbar](https://rollbar.com/) – Exception Monitoring
+- [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
+- [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- [highlight.js](https://highlightjs.org/) – Text Editor
+- [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
+- [Google App Engine](https://developers.google.com/appengine) – Platform as a Service
+- [FilePond](https://pqina.nl/filepond/) – File Uploads
+- [pdfmake](http://pdfmake.org) – File Conversion
+- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- [Cleave.js](https://nosir.github.io/cleave.js/) – Javascript Utilities & Libraries
+- [Context.IO](http://context.io) – Email API
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
 - [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
 - [Surge](http://surge.sh/) – Static Web Hosting
-- [TinyMCE](https://www.tiny.cloud/) – Javascript Utilities & Libraries
-- [pdfmake](http://pdfmake.org) – File Conversion
-- [Chart.js](http://www.chartjs.org/) – Charting Libraries
-- [Graylog](https://www.graylog.org/) – Log Management
-- [i18next](https://www.i18next.com/) – Translation Service
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - [SweetAlert](https://sweetalert.js.org/) – Javascript Utilities & Libraries
-- [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- [highlight.js](https://highlightjs.org/) – Text Editor
-- [Dropzone.js](http://www.dropzonejs.com/) – Javascript UI Libraries
-- [Prettier](https://prettier.io/) – Code Review
-- [Select2](https://select2.github.io/) – Javascript UI Libraries
-- [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- [PHPStan](https://github.com/phpstan/phpstan) – Code Review
-- [Animate.css ](https://animate.style/) – Front-End Frameworks
-- [FilePond](https://pqina.nl/filepond/) – File Uploads
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
-- [Cleave.js](https://nosir.github.io/cleave.js/) – Javascript Utilities & Libraries
+- [TinyMCE](https://www.tiny.cloud/) – Javascript Utilities & Libraries
 - [Toxiproxy](https://github.com/shopify/toxiproxy) – Load and Performance Testing
-- [Travis CI](http://travis-ci.com/) – Continuous Integration
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [i18next](https://www.i18next.com/) – Translation Service
 
 Full tech stack [here](/techstack.md)
 
@@ -74,68 +74,68 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 adrielzimbril/Turbo-AI is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/21/Br4cEBV6.png' alt='ElasticHosts Cloud Servers'/> [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
-- <img width='25' height='25' src='https://img.stackshare.io/service/139/s01TMTGn.png' alt='Google App Engine'/> [Google App Engine](https://developers.google.com/appengine) – Platform as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/240/mPMj_ee5.png' alt='Context.IO'/> [Context.IO](http://context.io) – Email API
-- <img width='25' height='25' src='https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png' alt='Rollbar'/> [Rollbar](https://rollbar.com/) – Exception Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg' alt='PHP'/> [PHP](http://www.php.net/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1009/tuHsaI2U.png' alt='Swift'/> [Swift](https://developer.apple.com/swift/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg' alt='CouchDB'/> [CouchDB](http://couchdb.apache.org/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/1197/logosf_positif_03_icon.png' alt='Symfony'/> [Symfony](http://symfony.com/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1207/WtSNwHwK.png' alt='HHVM (HipHop Virtual Machine)'/> [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1232/_BKTHxZk.png' alt='Doctrine 2'/> [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png' alt='Terraform'/> [Terraform](https://www.terraform.io/) – Server Configuration and Automation
-- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png' alt='Twig'/> [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
-- <img width='25' height='25' src='https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png' alt='Scrutinizer'/> [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png' alt='Animate.css '/> [Animate.css ](https://animate.style/) – Front-End Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg' alt='Chart.js'/> [Chart.js](http://www.chartjs.org/) – Charting Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/6890/dropzonejs.com' alt='Dropzone.js'/> [Dropzone.js](http://www.dropzonejs.com/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/2350/638632.png' alt='Guzzle'/> [Guzzle](http://guzzlephp.org/) – Microframeworks (Backend)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/2601/128.png' alt='LiveReload'/> [LiveReload](http://livereload.com) – Live Reloading
-- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
-- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg' alt='Laravel'/> [Laravel](http://laravel.com/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/7488/select2.png' alt='Select2'/> [Select2](https://select2.github.io/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1197/logosf_positif_03_icon.png' alt='Symfony'/> [Symfony](http://symfony.com/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png' alt='Twig'/> [Twig](https://twig.symfony.com/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/1042/default_86434292d1c55e5f3a3256ca2bc6e2ea62eaca83.jpg' alt='CouchDB'/> [CouchDB](http://couchdb.apache.org/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1232/_BKTHxZk.png' alt='Doctrine 2'/> [Doctrine 2](http://www.doctrine-project.org/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
+- <img width='25' height='25' src='https://img.stackshare.io/service/1688/New_Project__65_.png' alt='Composer'/> [Composer](https://getcomposer.org/) – Package Managers
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4392/_HU28D42.png' alt='Graylog'/> [Graylog](https://www.graylog.org/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/1207/WtSNwHwK.png' alt='HHVM (HipHop Virtual Machine)'/> [HHVM (HipHop Virtual Machine)](http://hhvm.com/) – Virtual Machine
+- <img width='25' height='25' src='https://img.stackshare.io/service/2601/128.png' alt='LiveReload'/> [LiveReload](http://livereload.com) – Live Reloading
+- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/8333/phpst.png' alt='PHPStan'/> [PHPStan](https://github.com/phpstan/phpstan) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg' alt='PHPUnit'/> [PHPUnit](https://phpunit.de/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png' alt='PhpSpec'/> [PhpSpec](http://www.phpspec.net/en/latest/) – Testing Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png' alt='Rollbar'/> [Rollbar](https://rollbar.com/) – Exception Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/service/2017/a5b5e5e6414e2c07bef76c9d2a29cd46.png' alt='Scrutinizer'/> [Scrutinizer](https://scrutinizer-ci.com/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png' alt='Terraform'/> [Terraform](https://www.terraform.io/) – Server Configuration and Automation
+- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png' alt='highlight.js'/> [highlight.js](https://highlightjs.org/) – Text Editor
+- <img width='25' height='25' src='https://img.stackshare.io/service/21/Br4cEBV6.png' alt='ElasticHosts Cloud Servers'/> [ElasticHosts Cloud Servers](https://www.elastichosts.com) – Cloud Hosting
+- <img width='25' height='25' src='https://img.stackshare.io/service/139/s01TMTGn.png' alt='Google App Engine'/> [Google App Engine](https://developers.google.com/appengine) – Platform as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/11096/Screenshot_2019-06-14_at_10.14.14.png' alt='FilePond'/> [FilePond](https://pqina.nl/filepond/) – File Uploads
+- <img width='25' height='25' src='https://img.stackshare.io/service/3665/default_9ec0b1ccada9261069f4789939e98f85f21bb4fc.png' alt='pdfmake'/> [pdfmake](http://pdfmake.org) – File Conversion
+- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/21958/default_1224eb8d21537064d2f315c3e3f1e6a0518c3c59.png' alt='Cleave.js'/> [Cleave.js](https://nosir.github.io/cleave.js/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/240/mPMj_ee5.png' alt='Context.IO'/> [Context.IO](http://context.io) – Email API
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png' alt='Moment.js'/> [Moment.js](http://momentjs.com/) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3646/W-ShR64-.png' alt='Surge'/> [Surge](http://surge.sh/) – Static Web Hosting
-- <img width='25' height='25' src='https://img.stackshare.io/service/3655/eVcDQYNK_400x400.png' alt='TinyMCE'/> [TinyMCE](https://www.tiny.cloud/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/3665/default_9ec0b1ccada9261069f4789939e98f85f21bb4fc.png' alt='pdfmake'/> [pdfmake](http://pdfmake.org) – File Conversion
-- <img width='25' height='25' src='https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg' alt='Chart.js'/> [Chart.js](http://www.chartjs.org/) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4392/_HU28D42.png' alt='Graylog'/> [Graylog](https://www.graylog.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png' alt='i18next'/> [i18next](https://www.i18next.com/) – Translation Service
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/' alt='SweetAlert'/> [SweetAlert](https://sweetalert.js.org/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/6429/alpine_linux.png' alt='Alpine Linux'/> [Alpine Linux](https://www.alpinelinux.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png' alt='highlight.js'/> [highlight.js](https://highlightjs.org/) – Text Editor
-- <img width='25' height='25' src='https://img.stackshare.io/service/6890/dropzonejs.com' alt='Dropzone.js'/> [Dropzone.js](http://www.dropzonejs.com/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/7488/select2.png' alt='Select2'/> [Select2](https://select2.github.io/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/8333/phpst.png' alt='PHPStan'/> [PHPStan](https://github.com/phpstan/phpstan) – Code Review
-- <img width='25' height='25' src='https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png' alt='Animate.css '/> [Animate.css ](https://animate.style/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/11096/Screenshot_2019-06-14_at_10.14.14.png' alt='FilePond'/> [FilePond](https://pqina.nl/filepond/) – File Uploads
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/21958/default_1224eb8d21537064d2f315c3e3f1e6a0518c3c59.png' alt='Cleave.js'/> [Cleave.js](https://nosir.github.io/cleave.js/) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/3655/eVcDQYNK_400x400.png' alt='TinyMCE'/> [TinyMCE](https://www.tiny.cloud/) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/104936/default_8dd1b1c55679186895be6eb955b2cb47c991f21b.png' alt='Toxiproxy'/> [Toxiproxy](https://github.com/shopify/toxiproxy) – Load and Performance Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png' alt='i18next'/> [i18next](https://www.i18next.com/) – Translation Service
 
 Full tech stack [here](/techstack.md)
 
@@ -146,7 +146,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [adrielzimbril/Turbo-AI](https://github.com/adrielzimbril/Turbo-AI)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|375<br/>Tools used|01/09/24 <br/>Report generated|
+|375<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -1086,7 +1086,7 @@ Full tech stack [here](/techstack.md)
 |[sweetalert2](https://www.npmjs.com/sweetalert2)|v11.7.15|08/22/23|seb3u |MIT|[](https://github.com/advisories/GHSA-mrr8-v49w-3333) (Low)|
 |[swiper](https://www.npmjs.com/swiper)|v8.4.2|08/22/23|seb3u |MIT|N/A|
 |[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.3.2|08/22/23|seb3u |MIT|N/A|
-|[vite](https://www.npmjs.com/vite)|v4.4.2|08/22/23|seb3u |N/A|[CVE-2023-49293](https://github.com/advisories/GHSA-92r3-m2mg-pj97) (Moderate)|
+|[vite](https://www.npmjs.com/vite)|v4.4.2|08/22/23|seb3u |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2023-49293](https://github.com/advisories/GHSA-92r3-m2mg-pj97) (Moderate)|
 |[webpack-cli](https://www.npmjs.com/webpack-cli)|v4.10.0|08/22/23|seb3u |MIT|N/A|
 |[webpack-dev-server](https://www.npmjs.com/webpack-dev-server)|v4.15.1|08/22/23|seb3u |MIT|N/A|
 
